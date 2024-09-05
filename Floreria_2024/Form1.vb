@@ -50,4 +50,5 @@ Public Class Form1
         conexion.Close()
         MsgBox("Usuario agregado correctamente")
     End Sub
+
 End Class
