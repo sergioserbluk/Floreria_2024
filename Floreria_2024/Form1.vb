@@ -51,4 +51,9 @@ Public Class Form1
         MsgBox("Usuario agregado correctamente")
     End Sub
 
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Floreria_isiv.Show()
+        Me.Close()
+
+    End Sub
 End Class
