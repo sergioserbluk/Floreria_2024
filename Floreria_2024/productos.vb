@@ -210,8 +210,7 @@ Public Class productos
         ComboBox2.DisplayMember = "Nombre_Categoria"
         ComboBox2.ValueMember = "ID_Categoria"
         conexion.Close()
-        'recargo el tabpage3
-        TabPage3_Enter(sender, e)
+
 
 
 
@@ -305,5 +304,9 @@ Public Class productos
         comando.ExecuteNonQuery()
         conexion.Close()
         MsgBox("Categoria agregada correctamente")
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+
     End Sub
 End Class

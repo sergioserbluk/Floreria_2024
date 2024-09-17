@@ -82,20 +82,22 @@ Partial Class productos
         Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Controls.Add(Me.TabPage3)
         Me.TabControl1.Controls.Add(Me.TabPage4)
-        Me.TabControl1.Location = New System.Drawing.Point(95, 39)
+        Me.TabControl1.Location = New System.Drawing.Point(71, 32)
+        Me.TabControl1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(621, 547)
+        Me.TabControl1.Size = New System.Drawing.Size(466, 444)
         Me.TabControl1.TabIndex = 0
         '
         'TabPage1
         '
         Me.TabPage1.Controls.Add(Me.GroupBox1)
         Me.TabPage1.Controls.Add(Me.ListView1)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(613, 518)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage1.Size = New System.Drawing.Size(458, 418)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Buscar"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -106,35 +108,40 @@ Partial Class productos
         Me.GroupBox1.Controls.Add(Me.TextBox5)
         Me.GroupBox1.Controls.Add(Me.RadioButton2)
         Me.GroupBox1.Controls.Add(Me.RadioButton1)
-        Me.GroupBox1.Location = New System.Drawing.Point(29, 13)
+        Me.GroupBox1.Location = New System.Drawing.Point(22, 11)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(562, 77)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Size = New System.Drawing.Size(422, 63)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Buscar por:"
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(432, 32)
+        Me.Button4.Location = New System.Drawing.Point(324, 26)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
+        Me.Button4.Size = New System.Drawing.Size(56, 19)
         Me.Button4.TabIndex = 3
         Me.Button4.Text = "buscar"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(244, 34)
+        Me.TextBox5.Location = New System.Drawing.Point(183, 28)
+        Me.TextBox5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(160, 22)
+        Me.TextBox5.Size = New System.Drawing.Size(121, 20)
         Me.TextBox5.TabIndex = 2
         '
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(122, 35)
+        Me.RadioButton2.Location = New System.Drawing.Point(92, 28)
+        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(87, 20)
+        Me.RadioButton2.Size = New System.Drawing.Size(70, 17)
         Me.RadioButton2.TabIndex = 1
         Me.RadioButton2.TabStop = True
         Me.RadioButton2.Text = "Categoria"
@@ -143,9 +150,10 @@ Partial Class productos
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(17, 35)
+        Me.RadioButton1.Location = New System.Drawing.Point(13, 28)
+        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(77, 20)
+        Me.RadioButton1.Size = New System.Drawing.Size(62, 17)
         Me.RadioButton1.TabIndex = 0
         Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "Nombre"
@@ -154,9 +162,10 @@ Partial Class productos
         'ListView1
         '
         Me.ListView1.HideSelection = False
-        Me.ListView1.Location = New System.Drawing.Point(29, 96)
+        Me.ListView1.Location = New System.Drawing.Point(22, 78)
+        Me.ListView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(563, 391)
+        Me.ListView1.Size = New System.Drawing.Size(423, 318)
         Me.ListView1.TabIndex = 0
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
@@ -177,10 +186,11 @@ Partial Class productos
         Me.TabPage2.Controls.Add(Me.Label2)
         Me.TabPage2.Controls.Add(Me.Label1)
         Me.TabPage2.Controls.Add(Me.Button2)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(613, 518)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.TabPage2.Size = New System.Drawing.Size(458, 418)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Nuevo"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -189,27 +199,30 @@ Partial Class productos
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Palatino Linotype", 16.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(159, 38)
+        Me.Label6.Location = New System.Drawing.Point(119, 31)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(244, 37)
+        Me.Label6.Size = New System.Drawing.Size(191, 29)
         Me.Label6.TabIndex = 13
         Me.Label6.Text = "Alta de Productos"
         '
         'LinkLabel1
         '
         Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(358, 146)
+        Me.LinkLabel1.Location = New System.Drawing.Point(268, 119)
+        Me.LinkLabel1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(56, 16)
+        Me.LinkLabel1.Size = New System.Drawing.Size(44, 13)
         Me.LinkLabel1.TabIndex = 12
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "Agregar"
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(485, 351)
+        Me.Button3.Location = New System.Drawing.Point(364, 285)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(112, 35)
+        Me.Button3.Size = New System.Drawing.Size(84, 28)
         Me.Button3.TabIndex = 11
         Me.Button3.Text = "Cancelar"
         Me.Button3.UseVisualStyleBackColor = True
@@ -217,90 +230,101 @@ Partial Class productos
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(185, 143)
+        Me.ComboBox1.Location = New System.Drawing.Point(139, 116)
+        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(154, 24)
+        Me.ComboBox1.Size = New System.Drawing.Size(116, 21)
         Me.ComboBox1.TabIndex = 10
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(185, 254)
+        Me.TextBox4.Location = New System.Drawing.Point(139, 206)
+        Me.TextBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox4.Multiline = True
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(229, 132)
+        Me.TextBox4.Size = New System.Drawing.Size(173, 108)
         Me.TextBox4.TabIndex = 9
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(185, 218)
+        Me.TextBox3.Location = New System.Drawing.Point(139, 177)
+        Me.TextBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(62, 22)
+        Me.TextBox3.Size = New System.Drawing.Size(48, 20)
         Me.TextBox3.TabIndex = 8
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(185, 182)
+        Me.TextBox2.Location = New System.Drawing.Point(139, 148)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox2.Size = New System.Drawing.Size(76, 20)
         Me.TextBox2.TabIndex = 7
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(185, 107)
+        Me.TextBox1.Location = New System.Drawing.Point(139, 87)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(229, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(173, 20)
         Me.TextBox1.TabIndex = 6
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(27, 257)
+        Me.Label5.Location = New System.Drawing.Point(20, 209)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(79, 16)
+        Me.Label5.Size = New System.Drawing.Size(63, 13)
         Me.Label5.TabIndex = 5
         Me.Label5.Text = "Descripcion"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(27, 221)
+        Me.Label4.Location = New System.Drawing.Point(20, 180)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(67, 16)
+        Me.Label4.Size = New System.Drawing.Size(54, 13)
         Me.Label4.TabIndex = 4
         Me.Label4.Text = "existencia"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(27, 185)
+        Me.Label3.Location = New System.Drawing.Point(20, 150)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(46, 16)
+        Me.Label3.Size = New System.Drawing.Size(37, 13)
         Me.Label3.TabIndex = 3
         Me.Label3.Text = "Precio"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(27, 149)
+        Me.Label2.Location = New System.Drawing.Point(20, 121)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(66, 16)
+        Me.Label2.Size = New System.Drawing.Size(52, 13)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Categoria"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(27, 113)
+        Me.Label1.Location = New System.Drawing.Point(20, 92)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(56, 16)
+        Me.Label1.Size = New System.Drawing.Size(44, 13)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Nombre"
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(478, 275)
+        Me.Button2.Location = New System.Drawing.Point(358, 223)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(108, 41)
+        Me.Button2.Size = New System.Drawing.Size(81, 33)
         Me.Button2.TabIndex = 0
         Me.Button2.Text = "Guardar"
         Me.Button2.UseVisualStyleBackColor = True
@@ -322,9 +346,10 @@ Partial Class productos
         Me.TabPage3.Controls.Add(Me.Label11)
         Me.TabPage3.Controls.Add(Me.Label12)
         Me.TabPage3.Controls.Add(Me.Button6)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(613, 518)
+        Me.TabPage3.Size = New System.Drawing.Size(458, 418)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Modificar"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -332,38 +357,42 @@ Partial Class productos
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(11, 380)
+        Me.DataGridView1.Location = New System.Drawing.Point(8, 309)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(568, 122)
+        Me.DataGridView1.Size = New System.Drawing.Size(426, 99)
         Me.DataGridView1.TabIndex = 28
         '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Palatino Linotype", 16.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(153, 13)
+        Me.Label7.Location = New System.Drawing.Point(115, 11)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(276, 37)
+        Me.Label7.Size = New System.Drawing.Size(215, 29)
         Me.Label7.TabIndex = 27
         Me.Label7.Text = "Modificar Productos"
         '
         'LinkLabel2
         '
         Me.LinkLabel2.AutoSize = True
-        Me.LinkLabel2.Location = New System.Drawing.Point(352, 121)
+        Me.LinkLabel2.Location = New System.Drawing.Point(264, 98)
+        Me.LinkLabel2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.LinkLabel2.Name = "LinkLabel2"
-        Me.LinkLabel2.Size = New System.Drawing.Size(56, 16)
+        Me.LinkLabel2.Size = New System.Drawing.Size(44, 13)
         Me.LinkLabel2.TabIndex = 26
         Me.LinkLabel2.TabStop = True
         Me.LinkLabel2.Text = "Agregar"
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(479, 326)
+        Me.Button5.Location = New System.Drawing.Point(359, 265)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(112, 35)
+        Me.Button5.Size = New System.Drawing.Size(84, 28)
         Me.Button5.TabIndex = 25
         Me.Button5.Text = "Cancelar"
         Me.Button5.UseVisualStyleBackColor = True
@@ -371,90 +400,101 @@ Partial Class productos
         'ComboBox2
         '
         Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(179, 118)
+        Me.ComboBox2.Location = New System.Drawing.Point(134, 96)
+        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(154, 24)
+        Me.ComboBox2.Size = New System.Drawing.Size(116, 21)
         Me.ComboBox2.TabIndex = 24
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(179, 229)
+        Me.TextBox6.Location = New System.Drawing.Point(134, 186)
+        Me.TextBox6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox6.Multiline = True
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(229, 132)
+        Me.TextBox6.Size = New System.Drawing.Size(173, 108)
         Me.TextBox6.TabIndex = 23
         '
         'TextBox7
         '
-        Me.TextBox7.Location = New System.Drawing.Point(179, 193)
+        Me.TextBox7.Location = New System.Drawing.Point(134, 157)
+        Me.TextBox7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(62, 22)
+        Me.TextBox7.Size = New System.Drawing.Size(48, 20)
         Me.TextBox7.TabIndex = 22
         '
         'TextBox8
         '
-        Me.TextBox8.Location = New System.Drawing.Point(179, 157)
+        Me.TextBox8.Location = New System.Drawing.Point(134, 128)
+        Me.TextBox8.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(100, 22)
+        Me.TextBox8.Size = New System.Drawing.Size(76, 20)
         Me.TextBox8.TabIndex = 21
         '
         'TextBox9
         '
-        Me.TextBox9.Location = New System.Drawing.Point(179, 82)
+        Me.TextBox9.Location = New System.Drawing.Point(134, 67)
+        Me.TextBox9.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(229, 22)
+        Me.TextBox9.Size = New System.Drawing.Size(173, 20)
         Me.TextBox9.TabIndex = 20
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(21, 232)
+        Me.Label8.Location = New System.Drawing.Point(16, 188)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(79, 16)
+        Me.Label8.Size = New System.Drawing.Size(63, 13)
         Me.Label8.TabIndex = 19
         Me.Label8.Text = "Descripcion"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(21, 196)
+        Me.Label9.Location = New System.Drawing.Point(16, 159)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(67, 16)
+        Me.Label9.Size = New System.Drawing.Size(54, 13)
         Me.Label9.TabIndex = 18
         Me.Label9.Text = "existencia"
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(21, 160)
+        Me.Label10.Location = New System.Drawing.Point(16, 130)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(46, 16)
+        Me.Label10.Size = New System.Drawing.Size(37, 13)
         Me.Label10.TabIndex = 17
         Me.Label10.Text = "Precio"
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(21, 124)
+        Me.Label11.Location = New System.Drawing.Point(16, 101)
+        Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(66, 16)
+        Me.Label11.Size = New System.Drawing.Size(52, 13)
         Me.Label11.TabIndex = 16
         Me.Label11.Text = "Categoria"
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(21, 88)
+        Me.Label12.Location = New System.Drawing.Point(16, 72)
+        Me.Label12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(56, 16)
+        Me.Label12.Size = New System.Drawing.Size(44, 13)
         Me.Label12.TabIndex = 15
         Me.Label12.Text = "Nombre"
         '
         'Button6
         '
-        Me.Button6.Location = New System.Drawing.Point(472, 250)
+        Me.Button6.Location = New System.Drawing.Point(354, 203)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(108, 41)
+        Me.Button6.Size = New System.Drawing.Size(81, 33)
         Me.Button6.TabIndex = 14
         Me.Button6.Text = "Guardar"
         Me.Button6.UseVisualStyleBackColor = True
@@ -464,9 +504,10 @@ Partial Class productos
         Me.TabPage4.Controls.Add(Me.Label13)
         Me.TabPage4.Controls.Add(Me.Button7)
         Me.TabPage4.Controls.Add(Me.DataGridView2)
-        Me.TabPage4.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Size = New System.Drawing.Size(613, 518)
+        Me.TabPage4.Size = New System.Drawing.Size(458, 418)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "Eliminar"
         Me.TabPage4.UseVisualStyleBackColor = True
@@ -475,17 +516,19 @@ Partial Class productos
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Palatino Linotype", 16.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(168, 22)
+        Me.Label13.Location = New System.Drawing.Point(126, 18)
+        Me.Label13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(263, 37)
+        Me.Label13.Size = New System.Drawing.Size(202, 29)
         Me.Label13.TabIndex = 28
         Me.Label13.Text = "Eliminar Productos"
         '
         'Button7
         '
-        Me.Button7.Location = New System.Drawing.Point(257, 465)
+        Me.Button7.Location = New System.Drawing.Point(193, 378)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(131, 30)
+        Me.Button7.Size = New System.Drawing.Size(98, 24)
         Me.Button7.TabIndex = 1
         Me.Button7.Text = "Elimnar"
         Me.Button7.UseVisualStyleBackColor = True
@@ -493,29 +536,32 @@ Partial Class productos
         'DataGridView2
         '
         Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView2.Location = New System.Drawing.Point(14, 70)
+        Me.DataGridView2.Location = New System.Drawing.Point(10, 57)
+        Me.DataGridView2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.DataGridView2.Name = "DataGridView2"
         Me.DataGridView2.RowHeadersWidth = 51
         Me.DataGridView2.RowTemplate.Height = 24
-        Me.DataGridView2.Size = New System.Drawing.Size(565, 361)
+        Me.DataGridView2.Size = New System.Drawing.Size(424, 293)
         Me.DataGridView2.TabIndex = 0
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(678, 596)
+        Me.Button1.Location = New System.Drawing.Point(508, 484)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(93, 27)
+        Me.Button1.Size = New System.Drawing.Size(70, 22)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "salir"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'productos
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 715)
+        Me.ClientSize = New System.Drawing.Size(600, 581)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TabControl1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "productos"
         Me.Text = "productos"
         Me.TabControl1.ResumeLayout(False)

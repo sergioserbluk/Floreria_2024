@@ -79,7 +79,7 @@ Public Class Ventas
             Dim queryProducto As String = "SELECT ID_Producto FROM Productos WHERE Nombre_Producto = @Nombre"
             Dim comandoProducto As New SQLiteCommand(queryProducto, conexion)
             comandoProducto.Parameters.AddWithValue("@Nombre", nombreProducto)
-            Dim idProducto As Integer = Convert.ToInt32(comandoProducto.ExecuteScalar())
+            Dim idProducto As Integer = Convert.ToInt32(comandoProducto.ExecuteScalar()) 'executeScalar me devuelve un solo valor de la consulta que es el id del producto
 
             ' Insertar en la tabla Detalle_Ventas
             Dim queryDetalle As String = "INSERT INTO Detalle_Ventas (ID_Venta, ID_Producto, Cantidad, Precio_Unitario) VALUES (@ID_Venta, @ID_Producto, @Cantidad, @Precio_Unitario)"
@@ -98,7 +98,7 @@ Public Class Ventas
 
     Private Sub ActualizarTotalVenta(monto As Decimal)
         Dim totalActual As Decimal = Convert.ToDecimal(LabelTotal.Text)
-        LabelTotal.Text = (totalActual + monto).ToString("F2")
+        LabelTotal.Text = (totalActual + monto).ToString("F2") ' en esta linea se suma el total actual con el monto del producto y se muestra en el label, el "F2" es para que muestre solo 2 decimales
     End Sub
     Private Sub Ventas_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         CargarUsuarios()
@@ -114,6 +114,12 @@ Public Class Ventas
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         FinalizarVenta()
+        ComboBoxUsuarios.Text = ""
+        ComboBoxProductos.Text = ""
+        TextBoxCantidad.Text = ""
+        LabelTotal.Text = "0.00"
+        ListViewCarrito.Items.Clear()
+
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
